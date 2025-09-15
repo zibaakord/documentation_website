@@ -9,81 +9,85 @@
 
 <body>
 
-    <div class="sidebar-menu">
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            Introduction
-            <div class="submenu">
-                <a href="#">Overview</a>
-                <a href="#">Features</a>
-                <a href="#">Quick Start</a>
-            </div>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+
         </div>
 
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            User Guide
-            <div class="submenu">
-                <a href="#">Usage</a>
-                <a href="#">Strength Levels</a>
-                <a href="#">Best Practices</a>
-            </div>
-        </div>
+        <ul class="menu">
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">Introduction</button>
+                <ul class="submenu">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Quick Start</a></li>
+                </ul>
+            </li>
 
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            Developer Guide
-            <div class="submenu">
-                <a href="#">Installation</a>
-                <a href="#">Configuration</a>
-                <a href="#">Embedding</a>
-            </div>
-        </div>
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">User Guide</button>
+                <ul class="submenu">
+                    <li><a href="#">Usage</a></li>
+                    <li><a href="#">Strength Levels</a></li>
+                    <li><a href="#">Best Practices</a></li>
+                </ul>
+            </li>
 
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            API Reference
-            <div class="submenu">
-                <a href="#">Analyze</a>
-                <a href="#">Patterns</a>
-                <a href="#">Localization</a>
-            </div>
-        </div>
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">Developer Guide</button>
+                <ul class="submenu">
+                    <li><a href="#">Installation</a></li>
+                    <li><a href="#">Configuration</a></li>
+                    <li><a href="#">Embedding</a></li>
+                </ul>
+            </li>
 
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            Security
-            <div class="submenu">
-                <a href="#">Strength Calculation</a>
-                <a href="#">Vulnerabilities</a>
-                <a href="#">Hygiene</a>
-            </div>
-        </div>
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">API Reference</button>
+                <ul class="submenu">
+                    <li><a href="#">Analyze</a></li>
+                    <li><a href="#">Patterns</a></li>
+                    <li><a href="#">Localization</a></li>
+                </ul>
+            </li>
 
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            Advanced
-            <div class="submenu">
-                <a href="#">Customization</a>
-                <a href="#">Integrations</a>
-                <a href="#">Performance</a>
-            </div>
-        </div>
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">Security</button>
+                <ul class="submenu">
+                    <li><a href="#">Strength Calculation</a></li>
+                    <li><a href="#">Vulnerabilities</a></li>
+                    <li><a href="#">Hygiene</a></li>
+                </ul>
+            </li>
 
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            FAQ
-            <div class="submenu">
-                <a href="#">Weak Passwords</a>
-                <a href="#">Data Privacy</a>
-                <a href="#">Offline Use</a>
-                <a href="#">Open Source</a>
-            </div>
-        </div>
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">Advanced</button>
+                <ul class="submenu">
+                    <li><a href="#">Customization</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Performance</a></li>
+                </ul>
+            </li>
 
-        <div class="menu-item" onclick="toggleSubmenu(this)">
-            Resources
-            <div class="submenu">
-                <a href="#">Changelog</a>
-                <a href="#">Glossary</a>
-                <a href="#">External Links</a>
-            </div>
-        </div>
-    </div>
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">FAQ</button>
+                <ul class="submenu">
+                    <li><a href="#">Data Privacy</a></li>
+                    <li><a href="#">Offline Use</a></li>
+                    <li><a href="#">Open Source</a></li>
+                </ul>
+            </li>
 
+            <li class="menu-item">
+                <button class="menu-title" onclick="toggleSubmenu(this)">Resources</button>
+                <ul class="submenu">
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Glossary</a></li>
+                    <li><a href="#">External Links</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
     <script src="script.js"></script>
 </body>

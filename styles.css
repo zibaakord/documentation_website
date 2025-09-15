@@ -1,0 +1,49 @@
+.sidebar-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8px;
+    margin-bottom: 18px;
+}
+
+.menu {
+    width: 200px;
+    position: fixed;
+    margin: 8px;
+    padding: 12px;
+    border-right: solid rgb(240, 239, 239) 0.4px;
+    box-shadow: #e0e0e0;
+    list-style: none;
+}
+
+.menu-title {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    color: rgb(77, 77, 77);
+    background: none;
+    border: none;
+}
+
+.submenu {
+    display: none;
+    margin: 6px;
+    padding: 10px;
+    gap: 7px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: -0.5px;
+    color: rgb(167, 167, 167);
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.menu-item.open .submenu {
+    display: block;
+    max-height: 60px;
+}
