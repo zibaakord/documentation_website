@@ -4,7 +4,7 @@
     --menu--border--clr: #f0efef;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -74,4 +74,12 @@ body {
 .menu-item.open .submenu {
     display: block;
     max-height: 75px;
+}
+
+.menu-title .sidebar-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    margin-left: 10px;
+    color: inherit;
 }
